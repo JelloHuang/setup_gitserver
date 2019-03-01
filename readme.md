@@ -50,3 +50,7 @@ $ mkdir project.git
 $ cd project.git
 $ git init --bare
 Initialized empty Git repository in /srv/git/project.git/
+
+
+add remote server in local :
+$ git remote add origin git@192.168.14.72:/opt/repo/at91/doc.git
