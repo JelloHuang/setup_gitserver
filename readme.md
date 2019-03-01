@@ -42,3 +42,11 @@ systemctl enable git-daemon
 
 
 https://git-scm.com/book/en/v2/Git-on-the-Server-Git-Daemon
+
+add a remote git repo in server（below is setup in git server）：
+
+$ cd /srv/git
+$ mkdir project.git
+$ cd project.git
+$ git init --bare
+Initialized empty Git repository in /srv/git/project.git/
